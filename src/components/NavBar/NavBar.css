@@ -1,0 +1,29 @@
+.navBar {
+    background-color: #333; /* Color de fondo del Navbar */
+    color: white; /* Color de texto del Navbar */
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px; /* Espaciado interior para el Navbar */
+  }
+  
+  
+  .logoNavBar img {
+    max-width: 50px; /* Ancho máximo para la imagen del logo */
+    height: auto; /* Para mantener la proporción de la imagen */
+  }
+  
+  .botonesNavBar {
+    display: flex;
+    gap: 20px; /* Espaciado entre los botones de navegación */
+  }
+  
+  .botonNavBar {
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: white; /* Color de texto de los enlaces */
+    font-weight: bold;
+    transition: color 0.3s; /* Efecto de transición al pasar el mouse */
+  }
+  
+  .botonNavBar:hover {
+    color: #f8f8f8; /* Cambio de color al pasar el mouse */
+  }
